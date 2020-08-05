@@ -36,7 +36,10 @@ public class CaeserCipher {
         }
         return sb.toString();
     }
-    
+    public String getEncryptedMessage(String input,int key)
+    {
+        return encrypt(input,key);
+    }
     private String encryptTwoKeys(String input, int key1, int key2)
     {   
         StringBuilder sb = new StringBuilder(input);
@@ -47,7 +50,10 @@ public class CaeserCipher {
         }
         return sb.toString();
     }
-    
+    public String getTwoKeyEncryptedMessage(String message,int key1,int key2)
+    {
+        return encryptTwoKeys(message,key1,key2);
+    }
     public void testCaeser()
     {
         int key1 = 23, key2 = 17;
