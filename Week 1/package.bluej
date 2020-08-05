@@ -1,12 +1,12 @@
 #BlueJ package file
-dependency1.from=CaeserBreaker
-dependency1.to=CaeserCipher
+dependency1.from=TestObjectOrientedCaeserCipher
+dependency1.to=ObjectOrientedCaeserCipher
 dependency1.type=UsesDependency
-dependency2.from=TestObjectOrientedCaeserCipher
-dependency2.to=ObjectOrientedCaeserCipher
+dependency2.from=TestCaeserCipher2
+dependency2.to=CaeserCipher2
 dependency2.type=UsesDependency
-dependency3.from=TestCaeserCipher2
-dependency3.to=CaeserCipher2
+dependency3.from=CaeserBreaker
+dependency3.to=CaeserCipher
 dependency3.type=UsesDependency
 editor.fx.0.height=0
 editor.fx.0.width=0
